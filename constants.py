@@ -1,0 +1,2 @@
+MAX_JOIN_TIME = 5 * 60
+MAX_PLAY_TIME =   1 * 60 * 60

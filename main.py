@@ -1,11 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-
 from fastapi.responses import PlainTextResponse
 
 from routers import api
 
 app = FastAPI()
+
 
 app.add_middleware(
     CORSMiddleware,
